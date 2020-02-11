@@ -13,6 +13,15 @@
 		BAC3920723F3046D00555317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC3920623F3046D00555317 /* Assets.xcassets */; };
 		BAC3920A23F3046D00555317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC3920923F3046D00555317 /* Preview Assets.xcassets */; };
 		BAC3920D23F3046D00555317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC3920B23F3046D00555317 /* LaunchScreen.storyboard */; };
+		BAC3921723F305D100555317 /* Heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3921623F305D100555317 /* Heart.swift */; };
+		BAC3921923F3073300555317 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3921823F3073300555317 /* Map.swift */; };
+		BAC3921C23F307F800555317 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3921B23F307F800555317 /* HelloWorld.swift */; };
+		BAC3921F23F30B3C00555317 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3921E23F30B3C00555317 /* SFSymbols.swift */; };
+		BAC3922123F30C1900555317 /* Paris.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922023F30C1900555317 /* Paris.swift */; };
+		BAC3922323F30E7000555317 /* CircularImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922223F30E7000555317 /* CircularImage.swift */; };
+		BAC3922523F30F3C00555317 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922423F30F3C00555317 /* Overlay.swift */; };
+		BAC3922723F30FB900555317 /* TextOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922623F30FB900555317 /* TextOverlay.swift */; };
+		BAC3922923F3115B00555317 /* DarkenImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922823F3115B00555317 /* DarkenImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		BAC3920923F3046D00555317 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAC3920C23F3046D00555317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAC3920E23F3046D00555317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC3921623F305D100555317 /* Heart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heart.swift; sourceTree = "<group>"; };
+		BAC3921823F3073300555317 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		BAC3921B23F307F800555317 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		BAC3921E23F30B3C00555317 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		BAC3922023F30C1900555317 /* Paris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paris.swift; sourceTree = "<group>"; };
+		BAC3922223F30E7000555317 /* CircularImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImage.swift; sourceTree = "<group>"; };
+		BAC3922423F30F3C00555317 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
+		BAC3922623F30FB900555317 /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
+		BAC3922823F3115B00555317 /* DarkenImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkenImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +74,9 @@
 		BAC391FF23F3046C00555317 /* MasteringSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BAC3921423F304EC00555317 /* views */,
 				BAC3920023F3046C00555317 /* AppDelegate.swift */,
 				BAC3920223F3046C00555317 /* SceneDelegate.swift */,
-				BAC3920423F3046C00555317 /* ContentView.swift */,
 				BAC3920623F3046D00555317 /* Assets.xcassets */,
 				BAC3920B23F3046D00555317 /* LaunchScreen.storyboard */,
 				BAC3920E23F3046D00555317 /* Info.plist */,
@@ -73,6 +91,47 @@
 				BAC3920923F3046D00555317 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAC3921423F304EC00555317 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3921523F305B000555317 /* Chapter01 */,
+				BAC3921A23F307E300555317 /* Chapter02 */,
+				BAC3921D23F30AFE00555317 /* Chapter03 */,
+				BAC3920423F3046C00555317 /* ContentView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		BAC3921523F305B000555317 /* Chapter01 */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3921623F305D100555317 /* Heart.swift */,
+				BAC3921823F3073300555317 /* Map.swift */,
+			);
+			path = Chapter01;
+			sourceTree = "<group>";
+		};
+		BAC3921A23F307E300555317 /* Chapter02 */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3921B23F307F800555317 /* HelloWorld.swift */,
+			);
+			path = Chapter02;
+			sourceTree = "<group>";
+		};
+		BAC3921D23F30AFE00555317 /* Chapter03 */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3921E23F30B3C00555317 /* SFSymbols.swift */,
+				BAC3922023F30C1900555317 /* Paris.swift */,
+				BAC3922223F30E7000555317 /* CircularImage.swift */,
+				BAC3922423F30F3C00555317 /* Overlay.swift */,
+				BAC3922623F30FB900555317 /* TextOverlay.swift */,
+				BAC3922823F3115B00555317 /* DarkenImage.swift */,
+			);
+			path = Chapter03;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC3921923F3073300555317 /* Map.swift in Sources */,
+				BAC3921F23F30B3C00555317 /* SFSymbols.swift in Sources */,
+				BAC3922523F30F3C00555317 /* Overlay.swift in Sources */,
+				BAC3921C23F307F800555317 /* HelloWorld.swift in Sources */,
+				BAC3922723F30FB900555317 /* TextOverlay.swift in Sources */,
 				BAC3920123F3046C00555317 /* AppDelegate.swift in Sources */,
 				BAC3920323F3046C00555317 /* SceneDelegate.swift in Sources */,
+				BAC3922123F30C1900555317 /* Paris.swift in Sources */,
+				BAC3922923F3115B00555317 /* DarkenImage.swift in Sources */,
+				BAC3921723F305D100555317 /* Heart.swift in Sources */,
 				BAC3920523F3046C00555317 /* ContentView.swift in Sources */,
+				BAC3922323F30E7000555317 /* CircularImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
