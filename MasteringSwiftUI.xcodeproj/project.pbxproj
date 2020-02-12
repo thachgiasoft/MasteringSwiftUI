@@ -22,6 +22,12 @@
 		BAC3922523F30F3C00555317 /* Overlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922423F30F3C00555317 /* Overlay.swift */; };
 		BAC3922723F30FB900555317 /* TextOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922623F30FB900555317 /* TextOverlay.swift */; };
 		BAC3922923F3115B00555317 /* DarkenImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922823F3115B00555317 /* DarkenImage.swift */; };
+		BAC3922C23F44E1B00555317 /* Exercise01.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922B23F44E1B00555317 /* Exercise01.swift */; };
+		BAC3922E23F4572B00555317 /* Exercise02.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3922D23F4572B00555317 /* Exercise02.swift */; };
+		BAC3923123F45B0300555317 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3923023F45B0300555317 /* CardView.swift */; };
+		BAC3923323F45F7D00555317 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3923223F45F7D00555317 /* Cards.swift */; };
+		BAC3923723F465AF00555317 /* CH05_Exercise01.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3923623F465AF00555317 /* CH05_Exercise01.swift */; };
+		BAC3923923F4673900555317 /* CH05_Exercise02.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3923823F4673900555317 /* CH05_Exercise02.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +48,12 @@
 		BAC3922423F30F3C00555317 /* Overlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlay.swift; sourceTree = "<group>"; };
 		BAC3922623F30FB900555317 /* TextOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOverlay.swift; sourceTree = "<group>"; };
 		BAC3922823F3115B00555317 /* DarkenImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkenImage.swift; sourceTree = "<group>"; };
+		BAC3922B23F44E1B00555317 /* Exercise01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise01.swift; sourceTree = "<group>"; };
+		BAC3922D23F4572B00555317 /* Exercise02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise02.swift; sourceTree = "<group>"; };
+		BAC3923023F45B0300555317 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BAC3923223F45F7D00555317 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		BAC3923623F465AF00555317 /* CH05_Exercise01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CH05_Exercise01.swift; sourceTree = "<group>"; };
+		BAC3923823F4673900555317 /* CH05_Exercise02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CH05_Exercise02.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,8 @@
 				BAC3921523F305B000555317 /* Chapter01 */,
 				BAC3921A23F307E300555317 /* Chapter02 */,
 				BAC3921D23F30AFE00555317 /* Chapter03 */,
+				BAC3922A23F44DCF00555317 /* Chapter04 */,
+				BAC3922F23F45AB800555317 /* Chapter05 */,
 				BAC3920423F3046C00555317 /* ContentView.swift */,
 			);
 			path = views;
@@ -132,6 +146,26 @@
 				BAC3922823F3115B00555317 /* DarkenImage.swift */,
 			);
 			path = Chapter03;
+			sourceTree = "<group>";
+		};
+		BAC3922A23F44DCF00555317 /* Chapter04 */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3922B23F44E1B00555317 /* Exercise01.swift */,
+				BAC3922D23F4572B00555317 /* Exercise02.swift */,
+			);
+			path = Chapter04;
+			sourceTree = "<group>";
+		};
+		BAC3922F23F45AB800555317 /* Chapter05 */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3923023F45B0300555317 /* CardView.swift */,
+				BAC3923223F45F7D00555317 /* Cards.swift */,
+				BAC3923623F465AF00555317 /* CH05_Exercise01.swift */,
+				BAC3923823F4673900555317 /* CH05_Exercise02.swift */,
+			);
+			path = Chapter05;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,13 +242,19 @@
 				BAC3921923F3073300555317 /* Map.swift in Sources */,
 				BAC3921F23F30B3C00555317 /* SFSymbols.swift in Sources */,
 				BAC3922523F30F3C00555317 /* Overlay.swift in Sources */,
+				BAC3923323F45F7D00555317 /* Cards.swift in Sources */,
 				BAC3921C23F307F800555317 /* HelloWorld.swift in Sources */,
+				BAC3923123F45B0300555317 /* CardView.swift in Sources */,
 				BAC3922723F30FB900555317 /* TextOverlay.swift in Sources */,
+				BAC3923923F4673900555317 /* CH05_Exercise02.swift in Sources */,
 				BAC3920123F3046C00555317 /* AppDelegate.swift in Sources */,
 				BAC3920323F3046C00555317 /* SceneDelegate.swift in Sources */,
 				BAC3922123F30C1900555317 /* Paris.swift in Sources */,
 				BAC3922923F3115B00555317 /* DarkenImage.swift in Sources */,
+				BAC3922E23F4572B00555317 /* Exercise02.swift in Sources */,
+				BAC3923723F465AF00555317 /* CH05_Exercise01.swift in Sources */,
 				BAC3921723F305D100555317 /* Heart.swift in Sources */,
+				BAC3922C23F44E1B00555317 /* Exercise01.swift in Sources */,
 				BAC3920523F3046C00555317 /* ContentView.swift in Sources */,
 				BAC3922323F30E7000555317 /* CircularImage.swift in Sources */,
 			);
