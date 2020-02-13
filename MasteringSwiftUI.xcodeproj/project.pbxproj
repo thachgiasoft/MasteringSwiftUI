@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAB493CC23F597C800E2F862 /* SwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493CB23F597C800E2F862 /* SwiftUIButton.swift */; };
+		BAB493CE23F5999400E2F862 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493CD23F5999400E2F862 /* RoundedButton.swift */; };
+		BAB493D023F59ACE00E2F862 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493CF23F59ACE00E2F862 /* ImageButton.swift */; };
+		BAB493D223F59BA800E2F862 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493D123F59BA800E2F862 /* CustomButton.swift */; };
+		BAB493D423F59D8A00E2F862 /* FullWidthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493D323F59D8A00E2F862 /* FullWidthButton.swift */; };
+		BAB493D923F5A0ED00E2F862 /* SwiftUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493D823F5A0ED00E2F862 /* SwiftUIState.swift */; };
+		BAB493DD23F5A31300E2F862 /* CH07_Exercise01.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493DC23F5A31300E2F862 /* CH07_Exercise01.swift */; };
+		BAB493DF23F5A34200E2F862 /* CH06_Exercise01.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493DE23F5A34200E2F862 /* CH06_Exercise01.swift */; };
+		BAB493E123F5A4C100E2F862 /* CounterButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493E023F5A4C100E2F862 /* CounterButtons.swift */; };
+		BAB493E323F5A62A00E2F862 /* CH07_Exercise02.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493E223F5A62A00E2F862 /* CH07_Exercise02.swift */; };
 		BAC3920123F3046C00555317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3920023F3046C00555317 /* AppDelegate.swift */; };
 		BAC3920323F3046C00555317 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3920223F3046C00555317 /* SceneDelegate.swift */; };
 		BAC3920523F3046C00555317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3920423F3046C00555317 /* ContentView.swift */; };
@@ -31,6 +41,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BAB493CB23F597C800E2F862 /* SwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButton.swift; sourceTree = "<group>"; };
+		BAB493CD23F5999400E2F862 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		BAB493CF23F59ACE00E2F862 /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		BAB493D123F59BA800E2F862 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BAB493D323F59D8A00E2F862 /* FullWidthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullWidthButton.swift; sourceTree = "<group>"; };
+		BAB493D823F5A0ED00E2F862 /* SwiftUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIState.swift; sourceTree = "<group>"; };
+		BAB493DC23F5A31300E2F862 /* CH07_Exercise01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CH07_Exercise01.swift; sourceTree = "<group>"; };
+		BAB493DE23F5A34200E2F862 /* CH06_Exercise01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CH06_Exercise01.swift; sourceTree = "<group>"; };
+		BAB493E023F5A4C100E2F862 /* CounterButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterButtons.swift; sourceTree = "<group>"; };
+		BAB493E223F5A62A00E2F862 /* CH07_Exercise02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CH07_Exercise02.swift; sourceTree = "<group>"; };
 		BAC391FD23F3046C00555317 /* MasteringSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasteringSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC3920023F3046C00555317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAC3920223F3046C00555317 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +87,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAB493CA23F597AA00E2F862 /* Chapter06 */ = {
+			isa = PBXGroup;
+			children = (
+				BAB493CB23F597C800E2F862 /* SwiftUIButton.swift */,
+				BAB493CD23F5999400E2F862 /* RoundedButton.swift */,
+				BAB493CF23F59ACE00E2F862 /* ImageButton.swift */,
+				BAB493D123F59BA800E2F862 /* CustomButton.swift */,
+				BAB493D323F59D8A00E2F862 /* FullWidthButton.swift */,
+				BAB493DE23F5A34200E2F862 /* CH06_Exercise01.swift */,
+			);
+			path = Chapter06;
+			sourceTree = "<group>";
+		};
+		BAB493D723F5A0D700E2F862 /* Chapter07 */ = {
+			isa = PBXGroup;
+			children = (
+				BAB493D823F5A0ED00E2F862 /* SwiftUIState.swift */,
+				BAB493DC23F5A31300E2F862 /* CH07_Exercise01.swift */,
+				BAB493E023F5A4C100E2F862 /* CounterButtons.swift */,
+				BAB493E223F5A62A00E2F862 /* CH07_Exercise02.swift */,
+			);
+			path = Chapter07;
+			sourceTree = "<group>";
+		};
 		BAC391F423F3046C00555317 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +157,8 @@
 				BAC3921D23F30AFE00555317 /* Chapter03 */,
 				BAC3922A23F44DCF00555317 /* Chapter04 */,
 				BAC3922F23F45AB800555317 /* Chapter05 */,
+				BAB493CA23F597AA00E2F862 /* Chapter06 */,
+				BAB493D723F5A0D700E2F862 /* Chapter07 */,
 				BAC3920423F3046C00555317 /* ContentView.swift */,
 			);
 			path = views;
@@ -239,23 +285,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB493DD23F5A31300E2F862 /* CH07_Exercise01.swift in Sources */,
 				BAC3921923F3073300555317 /* Map.swift in Sources */,
+				BAB493CC23F597C800E2F862 /* SwiftUIButton.swift in Sources */,
+				BAB493D423F59D8A00E2F862 /* FullWidthButton.swift in Sources */,
 				BAC3921F23F30B3C00555317 /* SFSymbols.swift in Sources */,
 				BAC3922523F30F3C00555317 /* Overlay.swift in Sources */,
+				BAB493D023F59ACE00E2F862 /* ImageButton.swift in Sources */,
 				BAC3923323F45F7D00555317 /* Cards.swift in Sources */,
+				BAB493D923F5A0ED00E2F862 /* SwiftUIState.swift in Sources */,
 				BAC3921C23F307F800555317 /* HelloWorld.swift in Sources */,
 				BAC3923123F45B0300555317 /* CardView.swift in Sources */,
 				BAC3922723F30FB900555317 /* TextOverlay.swift in Sources */,
 				BAC3923923F4673900555317 /* CH05_Exercise02.swift in Sources */,
 				BAC3920123F3046C00555317 /* AppDelegate.swift in Sources */,
 				BAC3920323F3046C00555317 /* SceneDelegate.swift in Sources */,
+				BAB493CE23F5999400E2F862 /* RoundedButton.swift in Sources */,
 				BAC3922123F30C1900555317 /* Paris.swift in Sources */,
 				BAC3922923F3115B00555317 /* DarkenImage.swift in Sources */,
 				BAC3922E23F4572B00555317 /* Exercise02.swift in Sources */,
+				BAB493E323F5A62A00E2F862 /* CH07_Exercise02.swift in Sources */,
 				BAC3923723F465AF00555317 /* CH05_Exercise01.swift in Sources */,
 				BAC3921723F305D100555317 /* Heart.swift in Sources */,
+				BAB493D223F59BA800E2F862 /* CustomButton.swift in Sources */,
 				BAC3922C23F44E1B00555317 /* Exercise01.swift in Sources */,
 				BAC3920523F3046C00555317 /* ContentView.swift in Sources */,
+				BAB493DF23F5A34200E2F862 /* CH06_Exercise01.swift in Sources */,
+				BAB493E123F5A4C100E2F862 /* CounterButtons.swift in Sources */,
 				BAC3922323F30E7000555317 /* CircularImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
