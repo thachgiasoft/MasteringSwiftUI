@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0CE86323FC2BC1002359C7 /* DrawPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE86223FC2BC1002359C7 /* DrawPath.swift */; };
+		BA0CE86523FC2CD2002359C7 /* DrawStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE86423FC2CD2002359C7 /* DrawStroke.swift */; };
+		BA0CE86723FC2DC5002359C7 /* DrawCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE86623FC2DC5002359C7 /* DrawCurve.swift */; };
+		BA0CE86923FC2E8B002359C7 /* DrawCurveStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE86823FC2E8B002359C7 /* DrawCurveStroke.swift */; };
+		BA0CE86B23FC2F5E002359C7 /* DrawArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE86A23FC2F5E002359C7 /* DrawArc.swift */; };
+		BA0CE86D23FC30AF002359C7 /* DrawPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE86C23FC30AF002359C7 /* DrawPie.swift */; };
+		BA0CE86F23FC3497002359C7 /* DrawShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE86E23FC3497002359C7 /* DrawShape.swift */; };
+		BA0CE87123FC362F002359C7 /* DrawButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE87023FC362F002359C7 /* DrawButton.swift */; };
+		BA0CE87323FC39CE002359C7 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE87223FC39CE002359C7 /* ProgressIndicator.swift */; };
+		BA0CE87523FC3CBB002359C7 /* DrawDonutChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0CE87423FC3CBB002359C7 /* DrawDonutChart.swift */; };
 		BAB493CC23F597C800E2F862 /* SwiftUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493CB23F597C800E2F862 /* SwiftUIButton.swift */; };
 		BAB493CE23F5999400E2F862 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493CD23F5999400E2F862 /* RoundedButton.swift */; };
 		BAB493D023F59ACE00E2F862 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB493CF23F59ACE00E2F862 /* ImageButton.swift */; };
@@ -41,6 +51,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA0CE86223FC2BC1002359C7 /* DrawPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPath.swift; sourceTree = "<group>"; };
+		BA0CE86423FC2CD2002359C7 /* DrawStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawStroke.swift; sourceTree = "<group>"; };
+		BA0CE86623FC2DC5002359C7 /* DrawCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCurve.swift; sourceTree = "<group>"; };
+		BA0CE86823FC2E8B002359C7 /* DrawCurveStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCurveStroke.swift; sourceTree = "<group>"; };
+		BA0CE86A23FC2F5E002359C7 /* DrawArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawArc.swift; sourceTree = "<group>"; };
+		BA0CE86C23FC30AF002359C7 /* DrawPie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPie.swift; sourceTree = "<group>"; };
+		BA0CE86E23FC3497002359C7 /* DrawShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShape.swift; sourceTree = "<group>"; };
+		BA0CE87023FC362F002359C7 /* DrawButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawButton.swift; sourceTree = "<group>"; };
+		BA0CE87223FC39CE002359C7 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		BA0CE87423FC3CBB002359C7 /* DrawDonutChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDonutChart.swift; sourceTree = "<group>"; };
 		BAB493CB23F597C800E2F862 /* SwiftUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIButton.swift; sourceTree = "<group>"; };
 		BAB493CD23F5999400E2F862 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		BAB493CF23F59ACE00E2F862 /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
@@ -87,6 +107,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA0CE86123FC2B9D002359C7 /* Chapter08 */ = {
+			isa = PBXGroup;
+			children = (
+				BA0CE86223FC2BC1002359C7 /* DrawPath.swift */,
+				BA0CE86423FC2CD2002359C7 /* DrawStroke.swift */,
+				BA0CE86623FC2DC5002359C7 /* DrawCurve.swift */,
+				BA0CE86823FC2E8B002359C7 /* DrawCurveStroke.swift */,
+				BA0CE86A23FC2F5E002359C7 /* DrawArc.swift */,
+				BA0CE86C23FC30AF002359C7 /* DrawPie.swift */,
+				BA0CE86E23FC3497002359C7 /* DrawShape.swift */,
+				BA0CE87023FC362F002359C7 /* DrawButton.swift */,
+				BA0CE87223FC39CE002359C7 /* ProgressIndicator.swift */,
+				BA0CE87423FC3CBB002359C7 /* DrawDonutChart.swift */,
+			);
+			path = Chapter08;
+			sourceTree = "<group>";
+		};
 		BAB493CA23F597AA00E2F862 /* Chapter06 */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +196,7 @@
 				BAC3922F23F45AB800555317 /* Chapter05 */,
 				BAB493CA23F597AA00E2F862 /* Chapter06 */,
 				BAB493D723F5A0D700E2F862 /* Chapter07 */,
+				BA0CE86123FC2B9D002359C7 /* Chapter08 */,
 				BAC3920423F3046C00555317 /* ContentView.swift */,
 			);
 			path = views;
@@ -287,8 +325,10 @@
 			files = (
 				BAB493DD23F5A31300E2F862 /* CH07_Exercise01.swift in Sources */,
 				BAC3921923F3073300555317 /* Map.swift in Sources */,
+				BA0CE86323FC2BC1002359C7 /* DrawPath.swift in Sources */,
 				BAB493CC23F597C800E2F862 /* SwiftUIButton.swift in Sources */,
 				BAB493D423F59D8A00E2F862 /* FullWidthButton.swift in Sources */,
+				BA0CE87123FC362F002359C7 /* DrawButton.swift in Sources */,
 				BAC3921F23F30B3C00555317 /* SFSymbols.swift in Sources */,
 				BAC3922523F30F3C00555317 /* Overlay.swift in Sources */,
 				BAB493D023F59ACE00E2F862 /* ImageButton.swift in Sources */,
@@ -296,13 +336,19 @@
 				BAB493D923F5A0ED00E2F862 /* SwiftUIState.swift in Sources */,
 				BAC3921C23F307F800555317 /* HelloWorld.swift in Sources */,
 				BAC3923123F45B0300555317 /* CardView.swift in Sources */,
+				BA0CE87523FC3CBB002359C7 /* DrawDonutChart.swift in Sources */,
 				BAC3922723F30FB900555317 /* TextOverlay.swift in Sources */,
+				BA0CE86523FC2CD2002359C7 /* DrawStroke.swift in Sources */,
+				BA0CE86D23FC30AF002359C7 /* DrawPie.swift in Sources */,
 				BAC3923923F4673900555317 /* CH05_Exercise02.swift in Sources */,
 				BAC3920123F3046C00555317 /* AppDelegate.swift in Sources */,
+				BA0CE86F23FC3497002359C7 /* DrawShape.swift in Sources */,
 				BAC3920323F3046C00555317 /* SceneDelegate.swift in Sources */,
+				BA0CE87323FC39CE002359C7 /* ProgressIndicator.swift in Sources */,
 				BAB493CE23F5999400E2F862 /* RoundedButton.swift in Sources */,
 				BAC3922123F30C1900555317 /* Paris.swift in Sources */,
 				BAC3922923F3115B00555317 /* DarkenImage.swift in Sources */,
+				BA0CE86B23FC2F5E002359C7 /* DrawArc.swift in Sources */,
 				BAC3922E23F4572B00555317 /* Exercise02.swift in Sources */,
 				BAB493E323F5A62A00E2F862 /* CH07_Exercise02.swift in Sources */,
 				BAC3923723F465AF00555317 /* CH05_Exercise01.swift in Sources */,
@@ -310,6 +356,8 @@
 				BAB493D223F59BA800E2F862 /* CustomButton.swift in Sources */,
 				BAC3922C23F44E1B00555317 /* Exercise01.swift in Sources */,
 				BAC3920523F3046C00555317 /* ContentView.swift in Sources */,
+				BA0CE86923FC2E8B002359C7 /* DrawCurveStroke.swift in Sources */,
+				BA0CE86723FC2DC5002359C7 /* DrawCurve.swift in Sources */,
 				BAB493DF23F5A34200E2F862 /* CH06_Exercise01.swift in Sources */,
 				BAB493E123F5A4C100E2F862 /* CounterButtons.swift in Sources */,
 				BAC3922323F30E7000555317 /* CircularImage.swift in Sources */,
